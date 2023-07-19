@@ -70,6 +70,75 @@
     align-items: center;
 }
 
+.online-play-section {
+    text-align: center;
+    padding-top: 50px;
+    padding: 40px;
+}
+
+.only-play-title {
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    margin: 0px 0px;
+    gap: 10px;
+}
+
+p {
+    padding: 20px;
+}
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    border: 3px solid #FF42A5;
+    border-radius: 18px;
+}
+
+.image-container img {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: opacity 0.3s ease;
+}
+
+.play-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url("./images/Play-24.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.watch-now {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    border-radius: 18px
+}
+
 
 
 /* frist section start */
@@ -97,21 +166,21 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* goat section css start */
 .goat-text {
+    display: inline-block;
     position: absolute;
     top: 100px;
     padding: 50px;
+}
+
+p {
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
 }
 
 .goat-container {
@@ -123,22 +192,6 @@
     width: 100%;
     height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* we are gamer section css start */
@@ -160,15 +213,6 @@
 .weare-gamer-content p {
     margin-top: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 .online-game-container {
     display: flex;
@@ -222,19 +266,6 @@
     width: 300px;
     height: 350px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .action-plan {
     display: flex;
@@ -327,19 +358,6 @@ li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer css start */
 .footer-container {
     background-color: #0B0223;
@@ -394,9 +412,6 @@ li {
 }
 
 
-
-
-
 /* website responsive css apply */
 /* small device responsive */
 @media screen and (max-width:576px) {
@@ -436,7 +451,8 @@ li {
 
     }
 
-    .weare-gamer {
+    .weare-gamer,
+    .weare-gamer-content {
         flex-direction: column;
         align-items: center;
         padding: 0px;
@@ -476,42 +492,97 @@ li {
 
     }
 
+
+
+    .careers-container {
+        width: 100%;
+    }
+
+    .career-content,
+    .career-text {
+        flex-direction: column;
+        margin: 0px 0px;
+        width: 400px;
+    }
+
+
+    .top-action-plan,
+    .buttom-action-plan {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-content {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .footer-menus,
+    li {
+        text-align: center;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .online-play-section,
+    .only-play-title,
+    .cards {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
 }
 
-.careers-container {
-    width: 100%;
-}
+/* medium device responsive */
+@media screen and (min-width:576px) and (max-width:960px) {
 
-.career-content,
-.career-text {
-    flex-direction: column;
-    margin: 0px 0px;
-    width: 400px;
-}
+    .careers-container {
+        width: 100%;
+    }
 
 
-.top-action-plan,
-.buttom-action-plan {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    .career-content,
+    .career-text {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 100px;
+    }
 
-}
+    .weare-gamer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
 
-.footer-container {
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-}
+    .weare-gamer-content {
+        padding: 50px;
+    }
 
-.footer-content {
-    margin: 0%;
-    padding: 0%;}
+    .online-game-img,
+    .online-game-another-img {
+        width: 300px;
+        height: 300px;
+    }
 
-.footer-menus, li{
-    text-align: center;
-    flex-direction: column;
-    padding: 50px;
+    .online-play-section,
+    .only-play-title,
+    .cards {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        padding: 100px;
+    }
+
 }
