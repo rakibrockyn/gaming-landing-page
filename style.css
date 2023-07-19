@@ -378,11 +378,11 @@ li {
 }
 
 .social-media-container {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 40px;
-gap: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 70px;
 }
 
 .copyright {
@@ -391,4 +391,127 @@ gap: 70px;
     font-size: 15px;
     padding-top: 40px;
     padding-bottom: 120px;
+}
+
+
+
+
+
+/* website responsive css apply */
+/* small device responsive */
+@media screen and (max-width:576px) {
+
+    header,
+    .header-container,
+    header-logo-container,
+    .header-menus {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        gap: 10px;
+    }
+
+
+    main,
+    .goat-container {
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .goat-text {
+        top: 0px;
+        width: fit-content;
+    }
+
+    .funny-videos-container {
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .funny-img {
+        width: 80%;
+        margin: 0px 0px;
+
+    }
+
+    .weare-gamer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+        width: 100px;
+    }
+
+    .weare-gamer-img,
+    .banner-img {
+        position: relative;
+
+    }
+
+    .online-game-container,
+    .online-game-second {
+        flex-direction: column;
+        margin: 0px 0px;
+        padding: 100px 0px;
+    }
+
+    .online-game-img,
+    .online-game-another-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .online-game-second,
+    .online-game-content {
+        flex-direction: column;
+        margin: 0px 0px;
+        padding-top: 100px;
+    }
+
+    .online-game-title {
+        flex-direction: column;
+        margin-top: 100px;
+
+    }
+
+}
+
+.careers-container {
+    width: 100%;
+}
+
+.career-content,
+.career-text {
+    flex-direction: column;
+    margin: 0px 0px;
+    width: 400px;
+}
+
+
+.top-action-plan,
+.buttom-action-plan {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content {
+    margin: 0%;
+    padding: 0%;}
+
+.footer-menus, li{
+    text-align: center;
+    flex-direction: column;
+    padding: 50px;
 }
