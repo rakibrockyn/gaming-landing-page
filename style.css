@@ -1,0 +1,181 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* shared style css */
+.section-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #FFF;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    padding: 21px 40px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+    color: #FF42A5;
+    cursor: pointer;
+    border: 2px solid #4EC5F7;
+}
+
+.btn-primary:hover {
+    background-color: #4EC5F7;
+    color: white;
+}
+
+
+.action-plan {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #FF42A5;
+    border-radius: 40px;
+    background: #fffbfb;
+    color: #FF42A5;
+    width: 180px;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.action-plan:hover {
+    background-color: #FF42A5;
+    color: white;
+}
+
+.action-plan-img {
+    width: 40px;
+    height: 40px;
+}
+
+.action-plan-section .top-action-plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.action-plan-section {
+    padding: 100px;
+    margin: 0px 50px;
+
+}
+
+.careers-container {
+    background-color: #FF42A5;
+    width: 1348px;
+}
+
+.career-text {
+    text-align: left;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.career-img img {
+    width: 700px;
+}
+
+.buttom-action-plan {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* careers section css start */
+
+
+
+.career-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.list-item {
+    display: flex;
+    color: white;
+    margin-top: 30px;
+}
+
+.list-item ul {
+    list-style: none;
+
+}
+
+
+.list-item .inner-list-item ul li {
+    padding-left: 50px;
+    list-style: none;
+}
+
+li {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css start */
+.footer-container {
+    background-color: #0B0223;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.logo-title {
+    font-size: 40px;
+    color: white;
+}
+
+.logo-title-color {
+    color: #FF42A5;
+}
+
+.logo-img {
+    width: 80px;
+    height: 40px;
+    padding-right: 20px;
+}
+
+.footer-menus>ul {
+    padding-top: 40px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    justify-content: center
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
