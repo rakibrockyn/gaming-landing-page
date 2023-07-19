@@ -30,6 +30,41 @@
     color: white;
 }
 
+
+
+
+
+.goat-text{
+    position: absolute;
+    top: 100px;
+    padding: 50px;
+}
+
+.goat-container{
+    display: flex;
+}
+.goat-images img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* we are gamer section css start */
 .weare-gamer{
     display: flex;
