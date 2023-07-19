@@ -30,7 +30,7 @@
     color: white;
 }
 
-/* header section start */
+/* header css section start */
 .header-container {
     display: flex;
     justify-content: space-around;
@@ -70,6 +70,9 @@
     align-items: center;
 }
 
+/* header css section end */
+
+/* online play css section start */
 .online-play-section {
     text-align: center;
     padding-top: 50px;
@@ -139,9 +142,11 @@ p {
     border-radius: 18px
 }
 
+/* /* online play css section end */
 
 
-/* frist section start */
+
+/* funny videos  section start */
 .funny-videos-container {
     text-align: center;
     padding: 80px 180px;
@@ -165,6 +170,9 @@ p {
     position: absolute;
 
 }
+
+/* funny videos  section end */
+
 
 /* goat section css start */
 .goat-text {
@@ -192,6 +200,9 @@ a {
     width: 100%;
     height: 100%;
 }
+
+/* goat section css end */
+
 
 
 /* we are gamer section css start */
@@ -267,6 +278,10 @@ a {
     height: 350px;
 }
 
+/* /* we are gamer section css start end */
+
+/* action plan css section start */
+
 .action-plan {
     display: flex;
     align-items: center;
@@ -301,8 +316,11 @@ a {
 .action-plan-section {
     padding: 100px;
     margin: 0px 50px;
-
 }
+
+/* /* action plan css section end */
+*/
+/* careers css section start */
 
 .careers-container {
     background-color: #FF42A5;
@@ -324,10 +342,6 @@ a {
     display: flex;
     justify-content: space-evenly;
 }
-
-/* careers section css start */
-
-
 
 .career-content {
     display: flex;
@@ -356,6 +370,8 @@ a {
 li {
     padding-top: 10px;
 }
+
+/* careers css section end */
 
 
 /* footer css start */
@@ -410,6 +426,9 @@ li {
     padding-top: 40px;
     padding-bottom: 120px;
 }
+
+/* footer css section end */
+
 
 
 /* website responsive css apply */
