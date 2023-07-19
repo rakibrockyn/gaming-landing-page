@@ -281,7 +281,6 @@ a {
 /* /* we are gamer section css start end */
 
 /* action plan css section start */
-
 .action-plan {
     display: flex;
     align-items: center;
@@ -316,12 +315,14 @@ a {
 .action-plan-section {
     padding: 100px;
     margin: 0px 50px;
+
 }
 
-/* /* action plan css section end */
-*/
-/* careers css section start */
+/* action plan css section end */
 
+
+
+/* careers css section start */
 .careers-container {
     background-color: #FF42A5;
     width: 1348px;
@@ -370,6 +371,7 @@ a {
 li {
     padding-top: 10px;
 }
+
 
 /* careers css section end */
 
@@ -427,7 +429,7 @@ li {
     padding-bottom: 120px;
 }
 
-/* footer css section end */
+/* footer css end */
 
 
 
